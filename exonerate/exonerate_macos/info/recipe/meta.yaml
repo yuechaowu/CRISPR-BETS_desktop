@@ -1,0 +1,54 @@
+# This file created by conda-build 3.18.9
+# meta.yaml template originally from:
+# /Users/runner/runners/2.159.2/work/bioconda-recipes/bioconda-recipes/recipes/exonerate, last modified Tue Oct 29 09:23:37 2019
+# ------------------------------------------------
+
+package:
+    name: exonerate
+    version: 2.4.0
+source:
+    sha256: f849261dc7c97ef1f15f222e955b0d3daf994ec13c9db7766f1ac7e77baa4042
+    url: http://ftp.ebi.ac.uk/pub/software/vertebrategenomics/exonerate/exonerate-2.4.0.tar.gz
+build:
+    number: '3'
+    string: hbe7ca29_3
+requirements:
+    build:
+        - autoconf 2.69 pl526h1de35cc_9
+        - automake 1.16.1 pl526_1003
+        - cctools 895 h7512d6f_0
+        - clang 4.0.1 h662ec87_0
+        - clang_osx-64 4.0.1 h1ce6c1d_17
+        - compiler-rt 4.0.1 h5487866_0
+        - ld64 274.2 h7c2db76_0
+        - libcxx 4.0.1 h579ed51_0
+        - libcxxabi 4.0.1 hebd6815_0
+        - libiconv 1.15 h01d97ff_1005
+        - llvm 4.0.1 hc748206_0
+        - llvm-lto-tapi 4.0.1 h6701bc3_0
+        - m4 1.4.18 h1de35cc_1001
+        - perl 5.26.2 haec8ef5_1006
+        - pkg-config 0.29.2 h112b980_1005
+    host:
+        - gettext 0.19.8.1 h46ab8bc_1002
+        - glib 2.58.3 h9d45998_1002
+        - libcxx 9.0.0 h89e68fa_1
+        - libffi 3.2.1 h6de7cb9_1006
+        - libiconv 1.15 h01d97ff_1005
+        - pcre 8.43 h4a8c4bd_0
+        - zlib 1.2.11 h0b31af3_1006
+    run:
+        - glib >=2.58.3,<3.0a0
+        - pcre >=8.43,<9.0a0
+test:
+    commands:
+        - 'exonerate 2>&1 | grep "exonerate: A generic sequence comparison tool"'
+about:
+    home: https://www.ebi.ac.uk/about/vertebrate-genomics/software/exonerate
+    license: GPL-3.0
+    summary: Exonerate - A generic tool for pairwise sequence comparison / alignment
+extra:
+    copy_test_source_files: true
+    final: true
+    identifiers:
+        - biotools:exonerate

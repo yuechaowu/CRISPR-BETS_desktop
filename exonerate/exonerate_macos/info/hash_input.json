@@ -1,0 +1,5 @@
+{
+  "glib": "2.58",
+  "c_compiler": "clang",
+  "c_compiler_version": "4"
+}

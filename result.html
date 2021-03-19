@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result</title>
+    <link rel="stylesheet" href='statics/css/bootstrap.css'>
+    <link rel="stylesheet" href="statics/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="statics/css/main.css">
+    <script src="statics/js/echarts4.1.0.min.js"></script>
+
+    <script>
+        //在渲染器进程 (网页) 中。
+        const { ipcRenderer } = require('electron');
+        ipcRenderer.send('connect', 'wuyuechao');
+        ipcRenderer.on('welcome', function (event, data) {
+            console.log('hello' + data)
+        })
+    </script>
+
+
+</head>
+<body>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #123456">
+        <a class="navbar-brand" href="#">CRISPR-BETS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" style="margin-right: 10px" data-toggle="modal" data-target="#about" id="navbarDropdownMenuLink2">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="margin-right: 10px" data-toggle="modal" data-target="#issue" id="navbarDropdownMenuLink3">Report</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html" id="navbarDropdownMenuLink4">
+                        Back
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div id="container_gene" style="height: 750px; width: 100%;"></div>
+
+
+    <div class="input-group container" style="margin-top: 10px">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="">Location</span>
+        </div>
+        <input id="from" name="test" type="text" class="form-control" placeholder="Start" onkeyup="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}" onafterpaste="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}">
+        <input id="end" name="test" type="text" class="form-control" placeholder="End" onkeyup="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}" onafterpaste="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}">
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button" onclick="datazoom_location()"><span class="fa fa-map-marker" style="margin-right: 5px"></span>GO</button>
+        </div>
+    </div>
+
+
+
+<!--    <div class="container" id="grna_info" style="background-color: #5bc0de; display: none; margin-top: 15px">-->
+<!--        <p id="editor"></p>-->
+<!--    </div>-->
+
+
+
+    <div class="modal fade in" id="issue" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_issue" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel_issue">
+                        Issue
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    If you have any issue and advice,please connect wuyuechao@zhangtaolab.org
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">
+                        OK
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade in" id="about" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_about" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel_about">
+                        About
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    A gRNA design software for base editing knockout using stop codon.
+                    <br>
+                    Version: V1.0
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">
+                        OK
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>window.$ = window.jQuery = require('jquery');</script>
+    <script src="statics/js/result.js"></script>
+    <script src="statics/js/bootstrap.min.js"></script>
+</body>
+</html>

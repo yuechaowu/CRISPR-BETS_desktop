@@ -1,0 +1,55 @@
+{
+  "name": "CRISPR-BETS",
+  "version": "1.0.1",
+  "main": "server.js",
+  "dependencies": {
+    "bio-parsers": "^5.5.5",
+    "electron-squirrel-startup": "^1.0.0",
+    "jquery": "^3.4.0",
+    "jsonfile": "^5.0.0",
+    "sync-exec": "^0.6.2",
+    "ve-range-utils": "^2.5.3",
+    "ve-sequence-utils": "^3.3.36",
+    "wget-improved": "^3.0.2"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.54",
+    "@electron-forge/maker-deb": "^6.0.0-beta.54",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.54",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.54",
+    "@electron-forge/maker-zip": "^6.0.0-beta.54",
+    "electron": "^4.1.4"
+  },
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "config": {
+    "forge": {
+      "packagerConfig": {},
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "CRISPR-BETS"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        }
+      ]
+    }
+  }
+}

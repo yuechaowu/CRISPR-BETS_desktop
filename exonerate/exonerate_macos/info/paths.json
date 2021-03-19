@@ -1,0 +1,245 @@
+{
+  "paths": [
+    {
+      "_path": "bin/esd2esi",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "952fa961100faad409907ba1b84f7e877638d11848a2741d386929a18d6b0d93",
+      "size_in_bytes": 197020
+    },
+    {
+      "_path": "bin/exonerate",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "c563324a8c62a33f58d9eed8d6bbd62c4d5592b629ea5c656b4dad6175a0a385",
+      "size_in_bytes": 4902156
+    },
+    {
+      "_path": "bin/exonerate-server",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "c32b4daba882e03f10eef494e4ce833607284c83f5c99ff0f97d1d03107adc7b",
+      "size_in_bytes": 211332
+    },
+    {
+      "_path": "bin/fasta2esd",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "ea75893ed9d8c5c506c5779a7a86dc96bae453148f965cd05d2b86fb2298816b",
+      "size_in_bytes": 94916
+    },
+    {
+      "_path": "bin/fastaannotatecdna",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "8dbf4c7389e398b7b365f7d3c1b88168dc52d2ab97aa2fd55f261695313bcf76",
+      "size_in_bytes": 89324
+    },
+    {
+      "_path": "bin/fastachecksum",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "a8149404caaaf21a8f1372d4e0394d5303603cdf5c79286c86f3d3b539b6cf11",
+      "size_in_bytes": 89300
+    },
+    {
+      "_path": "bin/fastaclean",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "608d93e4d77b5337a3866e5c46d8d6f677c24e8ec6b86d26a8e3e44b4a603c2e",
+      "size_in_bytes": 89336
+    },
+    {
+      "_path": "bin/fastaclip",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "5afbcd2034342c0756a7e95b484f463719127f45f4daebd4117fa01cf4c56236",
+      "size_in_bytes": 89328
+    },
+    {
+      "_path": "bin/fastacomposition",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "a3d054d52b8e1f40be173c6005f38ed3de0861b8e54351bcd95b4be41cb0472e",
+      "size_in_bytes": 89388
+    },
+    {
+      "_path": "bin/fastadiff",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "87664bf5a11a3756ab803c901ba90c3c507e69f7bea6c83b49dd6215afbfecbb",
+      "size_in_bytes": 89380
+    },
+    {
+      "_path": "bin/fastaexplode",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "f4d2c8df6f3b9e5c3e9d04fa121ec7f08fc43f11a49a6efc4898445660151197",
+      "size_in_bytes": 89356
+    },
+    {
+      "_path": "bin/fastafetch",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "9083673fa8ecb46a89c49b07fe2769ceda4226552f757278d47ea09a49ec8645",
+      "size_in_bytes": 89468
+    },
+    {
+      "_path": "bin/fastahardmask",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "9526fac464c6d475d6d23097c38184aad32e52562f06436a699fe9ae58cfdf63",
+      "size_in_bytes": 89336
+    },
+    {
+      "_path": "bin/fastaindex",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "46335d71481fdbb4c2a78ee806bb173308f91e76335d70afb33cd270d1ed7728",
+      "size_in_bytes": 89284
+    },
+    {
+      "_path": "bin/fastalength",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "5262995ceeed60dec56b6c679555e002622651d823bc7ffd5091c718a086bdd5",
+      "size_in_bytes": 89292
+    },
+    {
+      "_path": "bin/fastanrdb",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "cc764d22543766c91af3919b7911655919c795080dc0bdc500485ebecfefd85e",
+      "size_in_bytes": 89488
+    },
+    {
+      "_path": "bin/fastaoverlap",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "36de7e0aeec70a5946387182326a7a9f9450bd0202942ff82e2ff32ffbbc0ece",
+      "size_in_bytes": 89336
+    },
+    {
+      "_path": "bin/fastareformat",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "9be8bd4771e31a1ce2246a4047fb4aac6ee507ce8288051a8bd65aab419e0444",
+      "size_in_bytes": 89336
+    },
+    {
+      "_path": "bin/fastaremove",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "ec1652bd7d0f0ebad8801039f54929a0494fd25e718ecef323a074826d504374",
+      "size_in_bytes": 89636
+    },
+    {
+      "_path": "bin/fastarevcomp",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "b740cddd3c8888d9f73bfa81a9daf92dee78837f03bec0b74bc17e80a4cb3e7e",
+      "size_in_bytes": 89336
+    },
+    {
+      "_path": "bin/fastasoftmask",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "d4b134a9e1c8082d63363b4b883794466521bf246506d4226d5dbee74d5c7147",
+      "size_in_bytes": 89288
+    },
+    {
+      "_path": "bin/fastasort",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "daefa560b5385977c1cccf6c48835675e1a0cc62e226e55becac94b1ec5f2d66",
+      "size_in_bytes": 89656
+    },
+    {
+      "_path": "bin/fastasplit",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "de44e285f0fe4f052a759d50b4492184b77abd16c27198dbed2ad05755e8127a",
+      "size_in_bytes": 89412
+    },
+    {
+      "_path": "bin/fastasubseq",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "93274062de9ba57e2ea655df20ef58ecb4d9eb817084362ef146e589dc5f532e",
+      "size_in_bytes": 89288
+    },
+    {
+      "_path": "bin/fastatranslate",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "c1c252eef03dabb1a5b7871d0a6cd539a7bb04b10e9fa334b86f70e03297307e",
+      "size_in_bytes": 89288
+    },
+    {
+      "_path": "bin/fastavalidcds",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "b220ffccbe4d4ef6dc8c97fa57edcf09b7e43feca174fb4a17fbeca0beca8358",
+      "size_in_bytes": 89336
+    },
+    {
+      "_path": "bin/ipcress",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/Users/runner/miniconda/envs/bioconda/conda-bld/exonerate_1572343936206/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "096eb3e4e6dded3543ddd5fd9878c351a9ad805ef0b806cff853de13f3658bce",
+      "size_in_bytes": 147504
+    },
+    {
+      "_path": "share/man/man1/exonerate-server.1",
+      "path_type": "hardlink",
+      "sha256": "78bbc3bd8abb1cbeb83e9458333dfb2d925987f662a64c4eb80a56ed3693362f",
+      "size_in_bytes": 10181
+    },
+    {
+      "_path": "share/man/man1/exonerate.1",
+      "path_type": "hardlink",
+      "sha256": "5257adb06672fa68921510c611958c0afd3f4c107dda840fb1fab9edaed37734",
+      "size_in_bytes": 37677
+    },
+    {
+      "_path": "share/man/man1/fastautils.1",
+      "path_type": "hardlink",
+      "sha256": "66c9d7dbe296bebd20868875b48a7e4ceda4de076f38859545bb5fc85e9af7e7",
+      "size_in_bytes": 1526
+    },
+    {
+      "_path": "share/man/man1/ipcress.1",
+      "path_type": "hardlink",
+      "sha256": "417ad0e0041663e1e1996ef0e690ff3cef85de419f7e2c60c51e74c0ca576ff4",
+      "size_in_bytes": 6090
+    }
+  ],
+  "paths_version": 1
+}

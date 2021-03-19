@@ -1,0 +1,36 @@
+/*body{*/
+/*    background-color: rgba(74, 112, 139, 0.1);*/
+/*}*/
+
+
+.border-radius{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #0D3349;
+    border-radius: 8px;
+}
+
+.border-radius a{
+    color: #FFFFFF ;
+}
+
+nav a{
+    color: #FFFFFF !important;
+}
+
+.border-radius a span{
+    margin-right: 5px;
+}
+
+.input-group-append span{
+    margin-right: 5px;
+}
+
+.file-type{
+    margin-top: 20px;
+}
+
+.title{
+    margin-top: 10px;
+}
+
