@@ -8,6 +8,8 @@
 
 ### [Documentation](https://crispr-bets-online.readthedocs.io/en/latest/)
 
+[![Documentation Status](https://readthedocs.org/projects/crispr-bets-online/badge/?version=latest)](https://crispr-bets-online.readthedocs.io/en/latest/?badge=latest)
+
 ### Video tutorials
 
 [YouTube (EN)]()
