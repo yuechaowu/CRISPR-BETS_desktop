@@ -14,7 +14,7 @@
 
 [YouTube (EN)](https://www.youtube.com/watch?v=i8cZowJZ--s)
 
-[bilibili (中文)]()
+[bilibili (中文)](https://www.bilibili.com/video/BV1c44y1z7TG)
 
 
 ![image](./statics/img/1.png)
