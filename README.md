@@ -15,6 +15,6 @@
 [bilibili (中文)]()
 
 
-![image](../pic/1.png)
+![image](./statics/img/1.png)
 
-![image](../pic/2.png)
+![image](./statics/img/2.png)
