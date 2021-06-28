@@ -33,7 +33,7 @@ app.on('ready', () => {
             enableRemoteModule: true,
         }
     });
-    mainWindow.webContents.openDevTools();
+    //mainWindow.webContents.openDevTools();
     mainWindow.loadURL(`file://${app.getAppPath()}/index.html`);
     mainWindow.on('closed', () => {
         mainWindow = null;
