@@ -12,7 +12,7 @@
 
 ### Video tutorials
 
-[YouTube (EN)]()
+[YouTube (EN)](https://www.youtube.com/watch?v=i8cZowJZ--s)
 
 [bilibili (中文)]()
 
