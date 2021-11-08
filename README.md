@@ -20,3 +20,7 @@
 ![image](./statics/img/1.png)
 
 ![image](./statics/img/2.png)
+
+
+### Citation
+Wu, Y., He, Y., Sretenovic, S., Liu, S., Cheng, Y., Han, Y., Liu, G., Bao, Y., Fang, Q., Zheng, X., Zhou, J., Qi, Y., Zhang, Y. and Zhang, T.(2021) CRISPR-BETS: a base-editing design tool for generating stop codons. Plant Biotechnol. J., [https://doi.org/10.1111/pbi.13732](https://doi.org/10.1111/pbi.13732)
